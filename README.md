@@ -15,7 +15,7 @@ Kafka startup:
 
 Generate ID : C:\kafka\bin\windows\kafka-storage.bat random-uuid
 
-Define storage: .\bin\windows\kafka-storage.bat format --standalone -t <random-uuid> -c C:\kafka\config\server.properties
+Define storage: .\bin\windows\kafka-storage.bat format --standalone -t [random-uuid] -c C:\kafka\config\server.properties
 
 Run kafka: .\bin\windows\kafka-server-start.bat config\server.properties
 

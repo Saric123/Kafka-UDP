@@ -14,6 +14,7 @@ Kafka startup:
   It is started from terminal. Firstly, it is needed to generate Cluster ID and define storage. Scripts for that and Kafka startup are located inside KAFKA_HOME\bin\windows. 
 
 Generate ID : C:\kafka\bin\windows\kafka-storage.bat random-uuid
+
 Define storage: .\bin\windows\kafka-storage.bat format --standalone -t <random-uuid> -c C:\kafka\config\server.properties
 
 Run kafka: .\bin\windows\kafka-server-start.bat config\server.properties
